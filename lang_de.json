@@ -1,0 +1,36 @@
+{
+  "meta": { "llm_instruction": "Deutsch (Deutschland)" },
+  "ui": {
+    "sidebar_title": "⚜️ Abenteuer", "main_title": "Abenteuerhandbuch", "generated_on": "Generiert am",
+    "adv_start": "📖 Der Anfang", "adv_location": "Ort", "adv_patron": "Auftraggeber", "adv_mission": "Mission",
+    "adv_development": "⚔️ Die Reise", "adv_travel": "Reise nach", "adv_atmosphere": "Atmosphäre",
+    "adv_enemies": "Feinde", "adv_danger": "Gefahr", "adv_climax": "☠️ Der Höhepunkt",
+    "adv_villain": "Schurke", "adv_twist": "⚠️ WENDUNG", "adv_reward": "💰 Belohnung", "read_aloud": "Vorlesetext"
+  },
+  "names": {
+    "prefixes": ["Aer", "Bar", "Ced", "Drim", "El", "Fae", "Grom", "Hul", "Ior", "Kor", "Lym", "Mor", "Nim", "Oth", "Paer", "Rul", "Sar", "Tor", "Ulf", "Vor", "Xyr", "Zan"],
+    "suffixes": ["ia", "on", "el", "ar", "ith", "os", "um", "yl", "or", "ax", "wen", "ius", "thar", "gard", "mund", "rion"],
+    "surnames": ["Wanderer", "Hammer", "Schatten", "Licht", "Schwarz", "Rot", "Stein", "Fluss", "Wald", "Sturm", "Stahl", "Feuer"]
+  },
+  "templates": [
+    "Der Fluch von {villain}", "Das Geheimnis von {location}", "Schatten über {location}", 
+    "Der Fall von {villain}", "Echos in {location}", "Die Rache von {villain}"
+  ],
+  "global_tables": {
+    "patron": ["Ein verzweifelter Adliger", "Eine vermummte Gestalt", "Ein Geist", "Ein intelligenter Gegenstand", "Der Stadtrat", "Ein Kind"],
+    "hook": ["Belohnung", "Fluch", "Entführung", "Prophetischer Traum", "Verwechslung", "Krieg verhindern"],
+    "twist": ["Auftraggeber ist Schurke", "Objekt zerstören", "Schurke ist Familie", "Es war eine Prüfung", "Zu spät", "Verlies lebt"],
+    "reward": ["Titel", "Göttlicher Gefallen", "Schatzkarte", "Fliegendes Schiff", "Begnadigung", "Erbstück"],
+    "danger": [
+        "Ein Raum, der der Logik trotzt", 
+        "Eine komplexe tödliche Falle", 
+        "Ein Rätsel, das ein Opfer erfordert", 
+        "Ein magisches Stillefeld", 
+        "Ein Korridor mit umgekehrter Schwerkraft"
+    ]
+  },
+  "themes": {
+    "GOTHIC_DARKNESS": { "icon": "🦇", "description": "Terror.", "cities": ["Rabenhain"], "dungeons": ["Krypta"], "enemies": ["Vampir"], "minions": ["Zombies"], "atmosphere": ["Nebel"] },
+    "HIGH_FANTASY": { "icon": "✨", "description": "Magie.", "cities": ["Hauptstadt"], "dungeons": ["Turm"], "enemies": ["Drache"], "minions": ["Goblins"], "atmosphere": ["Magie"] }
+  }
+}

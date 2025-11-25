@@ -1,0 +1,44 @@
+{
+  "meta": { "llm_instruction": "English" },
+  "ui": {
+    "sidebar_title": "⚜️ Adventures", "main_title": "Adventure Manual", "generated_on": "Generated on",
+    "adv_start": "📖 The Beginning", "adv_location": "Location", "adv_patron": "Patron", "adv_mission": "Mission",
+    "adv_development": "⚔️ The Journey", "adv_travel": "Travel to", "adv_atmosphere": "Atmosphere",
+    "adv_enemies": "Enemies", "adv_danger": "Danger", "adv_climax": "☠️ The Climax",
+    "adv_villain": "Villain", "adv_twist": "⚠️ TWIST", "adv_reward": "💰 Reward", "read_aloud": "Read Aloud"
+  },
+  "names": {
+    "prefixes": ["Aer", "Bar", "Ced", "Drim", "El", "Fae", "Grom", "Hul", "Ior", "Kor", "Lym", "Mor", "Nim", "Oth", "Paer", "Rul", "Sar", "Tor", "Ulf", "Vor", "Xyr", "Zan"],
+    "suffixes": ["ia", "on", "el", "ar", "ith", "os", "um", "yl", "or", "ax", "wen", "ius", "thar", "gard", "mund", "rion"],
+    "surnames": ["Walker", "Hammer", "Shadow", "Light", "Black", "Red", "Stone", "River", "Wood", "Storm", "Steel", "Fire", "Blood", "Bone", "Star"]
+  },
+  "templates": [
+    "{villain}'s Curse", "The Secret of {location}", "Shadows over {location}",
+    "The Fall of {villain}", "Echoes in {location}", "The Vengeance of {villain}"
+  ],
+  "global_tables": {
+    "patron": ["A desperate noble", "A hooded figure", "A ghost", "A sentient item", "The city council", "A child witness"],
+    "hook": ["Gold reward", "Curse", "Kidnapping", "Prophetic dream", "Mistaken identity", "Prevent war"],
+    "twist": ["Patron is the villain", "Object must be destroyed", "Villain is family", "It was a test", "Too late", "Dungeon is alive"],
+    "reward": ["Titles", "Divine favor", "Treasure map", "Flying ship", "Royal pardon", "Heirloom"],
+    "danger": [
+        "A room that defies logic",
+        "A complex deadly trap",
+        "A puzzle requiring a sacrifice",
+        "A magical silence field",
+        "A gravity-reversed hall"
+    ]
+  },
+  "themes": {
+    "GOTHIC_DARKNESS": {
+      "icon": "🦇", "description": "Terror and fog.",
+      "cities": ["Ravenshollow", "Gloomport"], "dungeons": ["Crypt", "Asylum"],
+      "enemies": ["Vampire", "Necromancer"], "minions": ["Zombies", "Skeletons"], "atmosphere": ["foggy", "screams"]
+    },
+    "HIGH_FANTASY": {
+      "icon": "✨", "description": "Magic and dragons.",
+      "cities": ["Capital", "Bastion"], "dungeons": ["Tower", "Dragon Cave"],
+      "enemies": ["Dragon", "Archmage"], "minions": ["Orcs", "Goblins"], "atmosphere": ["magical", "bright"]
+    }
+  }
+}

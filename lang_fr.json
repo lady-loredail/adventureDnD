@@ -1,0 +1,36 @@
+{
+  "meta": { "llm_instruction": "Français de France" },
+  "ui": {
+    "sidebar_title": "⚜️ Aventures", "main_title": "Manuel d'Aventure", "generated_on": "Généré le",
+    "adv_start": "📖 Le Début", "adv_location": "Lieu", "adv_patron": "Mécène", "adv_mission": "Quête",
+    "adv_development": "⚔️ Le Défi", "adv_travel": "Voyage vers", "adv_atmosphere": "Atmosphère",
+    "adv_enemies": "Ennemis", "adv_danger": "Danger Unique", "adv_climax": "☠️ L'Apogée",
+    "adv_villain": "Méchant", "adv_twist": "⚠️ COUP DE THÉÂTRE", "adv_reward": "💰 Récompense", "read_aloud": "Lecture"
+  },
+  "names": {
+    "prefixes": ["Aer", "Bar", "Ced", "Drim", "El", "Fae", "Grom", "Hul", "Ior", "Kor", "Lym", "Mor", "Nim", "Oth", "Paer", "Rul", "Sar", "Tor", "Ulf", "Vor", "Xyr", "Zan"],
+    "suffixes": ["ia", "on", "el", "ar", "ith", "os", "um", "yl", "or", "ax", "wen", "ius", "thar", "gard", "mund", "rion"],
+    "surnames": ["Marcheur", "Marteau", "Ombre", "Lumière", "Noir", "Rouge", "Pierre", "Rivière", "Bois", "Tempête", "Acier", "Feu"]
+  },
+  "templates": [
+    "La Malédiction de {villain}", "Le Secret de {location}", "Ombres sur {location}", 
+    "La Chute de {villain}", "Échos à {location}", "La Vengeance de {villain}"
+  ],
+  "global_tables": {
+    "patron": ["Un noble désespéré", "Une silhouette encapuchonnée", "Un fantôme", "Un objet intelligent", "Le conseil", "Un enfant"],
+    "hook": ["Récompense en or", "Malédiction", "Enlèvement", "Rêve prophétique", "Erreur d'identité", "Éviter la guerre"],
+    "twist": ["Le mécène est le méchant", "Objet à détruire", "Méchant est famille", "C'était un test", "Trop tard", "Donjon vivant"],
+    "reward": ["Titres", "Faveur divine", "Carte au trésor", "Navire volant", "Pardon royal", "Héritage"],
+    "danger": [
+        "Une salle qui défie la logique", 
+        "Un piège mortel complexe", 
+        "Une énigme exigeant un sacrifice", 
+        "Un champ de silence magique", 
+        "Un couloir à gravité inversée"
+    ]
+  },
+  "themes": {
+    "GOTHIC_DARKNESS": { "icon": "🦇", "description": "Terreur.", "cities": ["Ravenshollow"], "dungeons": ["Crypte"], "enemies": ["Vampire"], "minions": ["Zombies"], "atmosphere": ["brume"] },
+    "HIGH_FANTASY": { "icon": "✨", "description": "Magie.", "cities": ["Capitale"], "dungeons": ["Tour"], "enemies": ["Dragon"], "minions": ["Gobelins"], "atmosphere": ["magique"] }
+  }
+}

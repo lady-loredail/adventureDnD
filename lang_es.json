@@ -1,0 +1,44 @@
+{
+  "meta": { "llm_instruction": "Español de España" },
+  "ui": {
+    "sidebar_title": "⚜️ Aventuras", "main_title": "Manual de Aventuras", "generated_on": "Generado el",
+    "adv_start": "📖 El Comienzo", "adv_location": "Lugar", "adv_patron": "Patrón", "adv_mission": "Misión",
+    "adv_development": "⚔️ El Desafío", "adv_travel": "Viaje a", "adv_atmosphere": "Atmósfera",
+    "adv_enemies": "Enemigos", "adv_danger": "Peligro Único", "adv_climax": "☠️ El Climax",
+    "adv_villain": "Villano", "adv_twist": "⚠️ GIRO", "adv_reward": "💰 Recompensa", "read_aloud": "Texto para leer"
+  },
+  "names": {
+    "prefixes": ["Aer", "Bar", "Ced", "Drim", "El", "Fae", "Grom", "Hul", "Ior", "Kor", "Lym", "Mor", "Nim", "Oth", "Paer", "Rul", "Sar", "Tor", "Ulf", "Vor", "Xyr", "Zan"],
+    "suffixes": ["ia", "on", "el", "ar", "ith", "os", "um", "yl", "or", "ax", "wen", "ius", "thar", "gard", "mund", "rion"],
+    "surnames": ["Caminante", "Martillo", "Sombra", "Luz", "Negro", "Rojo", "Piedra", "Rio", "Bosque", "Tempesta", "Acero", "Fuego"]
+  },
+  "templates": [
+    "La Maldición de {villain}", "El Secreto de {location}", "Sombras sobre {location}",
+    "La Caída de {villain}", "Ecos en {location}", "La Venganza de {villain}"
+  ],
+  "global_tables": {
+    "patron": ["Un noble desesperado", "Una figura encapuchada", "Un fantasma", "Un objeto inteligente", "El consejo", "Un niño"],
+    "hook": ["Recompensa de oro", "Maldición", "Secuestro", "Sueño profético", "Confusión de identidad", "Evitar guerra"],
+    "twist": ["El patrón es el villano", "Destruir el objeto", "Villano es familia", "Era una prueba", "Llegaron tarde", "Mazmorra viva"],
+    "reward": ["Títulos", "Favor divino", "Mapa del tesoro", "Barco volador", "Perdón real", "Reliquia"],
+    "danger": [
+        "Una sala que desafía la lógica",
+        "Una trampa mortal compleja",
+        "Un puzle que exige un sacrificio",
+        "Un campo de silencio mágico",
+        "Un pasillo con gravedad invertida"
+    ]
+  },
+  "themes": {
+    "GOTHIC_DARKNESS": {
+      "icon": "🦇", "description": "Terror y niebla.",
+      "cities": ["Ravenshollow", "Puerto Sombrío"], "dungeons": ["Cripta", "Manicomio"],
+      "enemies": ["Vampiro", "Nigromante"], "minions": ["Zombies", "Esqueletos"], "atmosphere": ["niebla densa", "gritos"]
+    },
+    "HIGH_FANTASY": {
+      "icon": "✨", "description": "Magia y dragones.",
+      "cities": ["Capital", "Bastión"], "dungeons": ["Torre", "Cueva"],
+      "enemies": ["Dragón", "Archimago"], "minions": ["Orcos", "Goblins"], "atmosphere": ["magia", "brillante"]
+    }
+  }
+}

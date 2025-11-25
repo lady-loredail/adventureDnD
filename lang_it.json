@@ -1,0 +1,36 @@
+{
+  "meta": { "llm_instruction": "Italiano" },
+  "ui": {
+    "sidebar_title": "⚜️ Avventure", "main_title": "Manuale dell'Avventura", "generated_on": "Generato il",
+    "adv_start": "📖 L'Inizio", "adv_location": "Luogo", "adv_patron": "Committente", "adv_mission": "Missione",
+    "adv_development": "⚔️ La Sfida", "adv_travel": "Viaggio verso", "adv_atmosphere": "Atmosfera",
+    "adv_enemies": "Nemici", "adv_danger": "Pericolo Unico", "adv_climax": "☠️ Il Climax",
+    "adv_villain": "Cattivo", "adv_twist": "⚠️ COLPO DI SCENA", "adv_reward": "💰 Ricompensa", "read_aloud": "Da leggere"
+  },
+  "names": {
+    "prefixes": ["Aer", "Bar", "Ced", "Drim", "El", "Fae", "Grom", "Hul", "Ior", "Kor", "Lym", "Mor", "Nim", "Oth", "Paer", "Rul", "Sar", "Tor", "Ulf", "Vor", "Xyr", "Zan"],
+    "suffixes": ["ia", "on", "el", "ar", "ith", "os", "um", "yl", "or", "ax", "wen", "ius", "thar", "gard", "mund", "rion"],
+    "surnames": ["Camminatore", "Martello", "Ombra", "Luce", "Nero", "Rosso", "Pietra", "Fiume", "Bosco", "Tempesta", "Acciaio", "Fuoco"]
+  },
+  "templates": [
+    "La Maledizione di {villain}", "Il Segreto di {location}", "Ombre su {location}", 
+    "La Caduta di {villain}", "Echi a {location}", "La Vendetta di {villain}"
+  ],
+  "global_tables": {
+    "patron": ["Un nobile disperato", "Figura incappucciata", "Fantasma", "Oggetto intelligente", "Il consiglio", "Un bambino"],
+    "hook": ["Ricompensa", "Maledizione", "Rapimento", "Sogno profetico", "Scambio di identità", "Evitare guerra"],
+    "twist": ["Committente è cattivo", "Distruggere oggetto", "Cattivo è parente", "Era una prova", "Troppo tardi", "Dungeon vivo"],
+    "reward": ["Titoli", "Favore divino", "Mappa del tesoro", "Nave volante", "Perdono reale", "Reliquia"],
+    "danger": [
+        "Una stanza che sfida la logica", 
+        "Una trappola mortale complessa", 
+        "Un enigma che richiede un sacrificio", 
+        "Un campo di silenzio magico", 
+        "Un corridoio a gravità invertita"
+    ]
+  },
+  "themes": {
+    "GOTHIC_DARKNESS": { "icon": "🦇", "description": "Terrore.", "cities": ["Ravenshollow"], "dungeons": ["Cripta"], "enemies": ["Vampiro"], "minions": ["Zombie"], "atmosphere": ["nebbia"] },
+    "HIGH_FANTASY": { "icon": "✨", "description": "Magia.", "cities": ["Capitale"], "dungeons": ["Torre"], "enemies": ["Drago"], "minions": ["Goblin"], "atmosphere": ["magia"] }
+  }
+}
