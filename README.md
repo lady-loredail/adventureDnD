@@ -8,6 +8,10 @@ This Python script generates coherent, thematic, and exciting adventure prompts 
 
 It goes beyond simple random tables by using **Contextual Themes** (e.g., Gothic Horror, High Fantasy, Underworld) to ensure that your Villain fits the Dungeon, and the Minions fit the Atmosphere.
 
+<img src="https://raw.githubusercontent.com/lady-loredail/adventureDnD/refs/heads/main/images/example_en.png" style="width: 80vw;">
+
+<img src="https://raw.githubusercontent.com/lady-loredail/adventureDnD/refs/heads/main/images/example_es.png" style="width: 80vw;">
+
 ## ✨ Features
 
 *   **Thematic Consistency:** No more "Pirates in a Desert." The generator picks a theme (e.g., *Gothic Darkness*) and selects cities, dungeons, and enemies that fit together.
